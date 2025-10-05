@@ -1,40 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Introduction Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Something Generator
+    </title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1 style="color:red">Nitin kumar</h1>
+    <!-- header for searching the movies -->
+    <header>
+        <h1 id="title">Movie lootera</h1>
+        <div>
+            <input type="text" id="search-box" placeholder="Search your fav movies...">
+            <button id="search-btn">yha se  dekh</button>
+        </div>
+    </header>
+    <!-- /body for list for the suggesttion  -->
+     <main>
+        <div id="movie-list" class="movie-list">
 
-  <h1 >List of the Assignment 2</h1>
-  <h3  class="my-element"  >Run these function on the console </h3>
-  <ol>
-    <li style="color:green" >Twonum(2,3) <b>Output</b> 5</li><br>
-    <li style="color:red">EvenOdd(2) <b>Output</b> The number is even </li><br>
-    <li style="color:green">largenum(2,3) <b>Output</b> "B is greater")</li><br>
-    <li style="color:red">square(2) <b>Output</b> 4</li><br>
-    <li style="color:green">swap(2,3) <b>Output</b> a=3 b=2</li><br>
-    <li style="color:red" > factorial(3) <b>Output</b> 6</li><br>
-    <li style="color:green" >reversedNum(213) <b>Output</b> 312</li><br>
-    <li style="color:red" > isLeapYear(2024) <b>Output</b>2024 is a Leap Year </li><br>
-  </ol><br>
-  <h2 class="your-element" >You can check the function by changing the value</h2>
-  <style>
-    .my-element {
-  background-color: lightblue;
-  padding: 20px;
-}
-    h1{
-      color:blue;}
-
-.my-element:hover {
-  background-color: darkblue;
-  color: white;
-}
-    
-  </style>
-  <script src="ass2.js"></script>
+        
+        </div>
+    </main>
+    <!-- footer of the movie lottera -->
+     <footer>
+        <p id="footer">Powered by <a href="https://www.themoviedb.org/" target="_blank">Tera baap movies center</a></p>
+     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
