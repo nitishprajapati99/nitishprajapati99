@@ -37,7 +37,7 @@ const getmovies = async()=>{
   </div>
 `;
 
-
+SearchMovie.value = "";
      
     }
     catch(error){
